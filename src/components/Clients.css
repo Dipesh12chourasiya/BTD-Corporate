@@ -1,0 +1,64 @@
+
+
+.textCon h2{
+      font-size: 52px;
+}
+
+.numberCon{
+    margin: 42px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numberCon div h2{
+    font-weight: 600;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCon{
+    object-fit: contain;
+    overflow: hidden;
+    width: 170px;
+}
+
+.textCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-center{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .numberCon{
+    width: 100%;
+  }
+
+  .numberCon .textCon p{
+    font-size: 12px;
+  }
+  .mobile-view{
+    margin-top: 30px;
+  }
+  .textCon h2 {
+    font-size: 30px;
+  }
+  .imgCon{
+    width: 100px;
+  }
+  /* .center{
+    } */
+}
+
+
+
+
+

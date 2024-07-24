@@ -1,0 +1,47 @@
+
+
+.imgP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-holder h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.subTitle{
+    text-align: center;
+}
+.textCon{
+    margin-bottom: 30px;
+}
+.textCon h3{
+    margin-top: 12px;
+}
+
+.imgCon{
+    width: 500px;
+}
+.divCon{
+    width: 500px;
+}
+.bold{
+    font-weight:600;
+}
+
+@media only screen and (max-width: 767px) {
+    .title-holder h1{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .imgCon{
+        width: 320px;
+    }
+    .divCon{
+        width: 320px;
+        margin-bottom: 40px;
+    }
+
+}
