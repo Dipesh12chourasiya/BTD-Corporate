@@ -34,9 +34,10 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .SliderCOn{
-        width: 416px;
-    }
+    
+    .SliderCOn {
+        width: 374px;
+      }
     .title-holder h1{
         font-size: 30px;
         margin-top: 40px;
