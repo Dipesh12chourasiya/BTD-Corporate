@@ -9,18 +9,9 @@ import AppClient from './components/clients';
 import BlackTieEvents from './components/BlackTieEvents';
 import BlackTieInvitations from './components/BlackTieInvitations';
 
-
 function App() {
   return (
     <div className='App'>
-      {/* <header id='header'>
-        <AppHeader />
-      </header>
-      <main>
-        <AppHero />
-      </main>
-      <Table /> */}
-
       <BrowserRouter>
         <header id='header'>
           <AppHeader />

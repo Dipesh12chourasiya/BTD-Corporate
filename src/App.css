@@ -930,6 +930,16 @@ textarea {
   color: #f64b4b;
 }
 
+.button{
+  color: white;
+  background-color: #F89B34;
+  border: none;
+  padding: 9px 25px;
+  border-radius: 10px;
+}
+.button:hover{
+  background-color: #cd7007;
+}
 
 @media only screen and (min-width: 1025px) {
 
@@ -1067,16 +1077,16 @@ textarea {
   .services-block .row {
     margin-bottom: 0;
   }
-
-  .services-block .holder:hover {
+  /* .services-block .holder:hover {
     margin: 0;
-  }
+  } */
 
   .services-block .holder {
     border-radius: 12px;
     background-color: #e9e9e9;
     margin: 12px 38px;
     width: 24em;
+    
   }
 
   .works-block {

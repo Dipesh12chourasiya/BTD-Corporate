@@ -2,15 +2,49 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import img1 from "../assets/images/birthday.jpg";
-import img2 from "../assets/images/corporateEvents.jpg";
-import img3 from "../assets/images/wedding.jpg";
+// import Image from "react-bootstrap/Image";
+
+import birdayImg1 from "../assets/events/bdimg2.jpg";
+import birdayImg2 from "../assets/events/e5.jpeg";
+import birdayImg3 from "../assets/events/e7.jpeg";
+
+import cor1 from '../assets/events/cor1.jpg'
+import cor2 from '../assets/events/cor2.jpg'
+import cor3 from '../assets/events/cor3.jpg'
+
+import wedding1 from "../assets/events/wedding1.jpg"
+import wedding2 from "../assets/events/wedding2.jpg"
+import wedding3 from "../assets/events/wedding3.jpg"
+
 
 import "./About.css";
 import "./BlackTieEvents.css";
+import ImageSlider from "./ImageSlider";
 
 const BlackTieEvents = () => {
+  const birthdayImages = [
+    birdayImg1,
+    birdayImg2,
+    birdayImg3,
+    // Add more image URLs here
+  ];
+
+  //corporate event
+  const corporateEventImages = [
+    cor1,
+    cor2,
+    cor3,
+    // Add more image URLs here
+  ];
+
+  //wedding
+  const weddingEventImages = [
+    wedding1,
+    wedding2,
+    wedding3,
+    // Add more image URLs here
+  ];
+
   return (
     <section className="block about-block">
       <Container fluid>
@@ -28,12 +62,12 @@ const BlackTieEvents = () => {
           </p>
         </div>
         <Row>
-          <h3 style={{ fontSize: "30px", marginTop:'40px'}}>Our Services</h3>
+          <h3 style={{ fontSize: "30px", marginTop:'40px', textAlign:'center'}}>Our Services</h3>
         </Row>
         <Row>
           <Col sm={4} className="textCon">
-            <div className="imgCon1">
-              <Image className="" src={img1} />
+            <div className="SliderCOn">
+                <ImageSlider images={birthdayImages} />
             </div>
             <div className="divCon1">
               <h3 className="subTitle">Birthday Parties</h3>
@@ -44,8 +78,8 @@ const BlackTieEvents = () => {
             </div>
           </Col>
           <Col sm={4} className="textCon">
-            <div className="imgCon1">
-              <Image className="" src={img2} />
+            <div className="SliderCOn">
+                <ImageSlider images={corporateEventImages} />
             </div>
             <div className="divCon1">
               <h3 className="subTitle">Corporate Events</h3>
@@ -57,8 +91,8 @@ const BlackTieEvents = () => {
             </div>
           </Col>
           <Col sm={4} className="textCon">
-            <div className="imgCon1">
-              <Image className="" src={img3} />
+            <div className="SliderCOn">
+              <ImageSlider images={weddingEventImages} />
             </div>
             <div className="divCon1">
               <h3 className="subTitle">Weddings</h3>
@@ -87,6 +121,11 @@ const BlackTieEvents = () => {
             </div>
             <p>At Black Tie Events, we believe in the power of extraordinary celebrations. Whether it’s an intimate gathering or a grand affair, we are dedicated to making your event a resounding success. Contact us today to start planning your next unforgettable event.</p>
         </Row>
+        {/* <Row>
+        <div style={{padding: "10px", width:'80vw', marginBottom:'45px'}}>
+          <ImageSlider images={birthdayImages} />
+        </div>
+        </Row> */}
       </Container>
     </section>
   );

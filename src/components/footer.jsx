@@ -6,6 +6,9 @@ import Stack from "react-bootstrap/esm/Stack";
 import Nav from 'react-bootstrap/Nav';
 // import {Image} from 'react-bootstrap';
 
+import './footer.css';
+import Image from "react-bootstrap/esm/Image";
+
 function AppFooter() {
   const [showTopBtn, setShowTopBtn] = useState(false);
 
@@ -29,16 +32,18 @@ function AppFooter() {
   return (
     <Container fluid>
       <Row className="text-white p-4">
-        <Col className="m-in-f-logo">
-            <Stack>
-               {/* <Image src={require('../assets/images/rada-exp-logo.png')} alt="company-logo"
+        <Col className="m-in-f-logo" sm={3}>
+            <div className="footerLogoDiv">
+               <Image className="fLogo" src={require('../assets/logos/BlackTielogoCropped.jpeg')} alt="company-logo"
                rounded
                width={150}
                height={150}
-               /> */}
-               <h2 style={{fontWeight:'600'}}>Black Tie Digital</h2>
-               <p>Right Strategies, Implementation, and Success.</p>
-            </Stack>
+               />
+               <div>
+                  <h3 className="footeH3">Black Tie Digital</h3>
+                  <p className="footer-p fotSUb">Right Strategies, Implementation and Success.</p>
+               </div>
+            </div>
         </Col>
         <Col>
            <Nav className="flex-column fs-5" style={{display: "flex", justifyContent:'start'}}>
@@ -51,9 +56,8 @@ function AppFooter() {
         </Col>
         <Col>
             <h4>Contact Us!</h4>
-            <p>Address: </p>
-            <p>Email: </p>
-            <p className="phoneNumber">Phone: </p>
+            <p>itsblacktiedigital@gmail.com</p>
+            <p className="phoneNumber">+91 8890099108</p>
         </Col>
         <Col>
           <div className="socials">

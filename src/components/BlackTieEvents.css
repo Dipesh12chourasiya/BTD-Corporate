@@ -15,12 +15,16 @@
     text-align: center;
 }
 
-.textCon h3{
-    margin-top: 12px;
+.divCon1 h3{
+    margin-top: 38px;
 }
 
 .imgCon1{
     width: 380px;
+    margin-bottom: 12px;
+}
+.SliderCOn{
+    width: 476px;
 }
 .divCon1{
     width: 380px;
@@ -30,6 +34,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .SliderCOn{
+        width: 416px;
+    }
     .title-holder h1{
         font-size: 30px;
         margin-top: 40px;

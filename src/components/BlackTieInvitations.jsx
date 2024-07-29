@@ -2,21 +2,33 @@ import React from 'react'
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import img1 from "../assets/images/birthday.jpg";
-import img2 from "../assets/images/corporateEvents.jpg";
-import img3 from "../assets/images/wedding.jpg";
-import img4 from "../assets/images/party.jpg";
+// import Image from "react-bootstrap/Image";
+
+// import img4 from "../assets/images/party.jpg";
+
+// import birdayImg1 from "../assets/events/bdimg2.jpg";
+import birthdayVid from "../assets/video/birthdayInvi.mp4"
+import corVid from "../assets/video/corporateVid.mp4"
+import weddingVid from "../assets/video/weddingVid.mp4"
+import partyVid from "../assets/video/partyVid.mp4"
+
+// import cor1 from '../assets/events/cor1.jpg'
+
+// import wedding1 from "../assets/events/wedding1.jpg"
 
 import "./About.css";
 import "./BlackTieInvitations.css";
+
+
+// video download link 
+// https://www.ssvid.net/
 
 const BlackTieInvitations = () => {
   return (
     <section id="about" className="block about-block">
       <Container fluid>
         <div className="title-holder">
-          <h1>Welcome to Black Tie Invitations</h1>
+          <h1>Welcome to Black Tie Invitations</h1> 
         </div>
         <div>
           <h2 style={{marginTop:'38px'}}>Elegance and Convenience in Every Click</h2>
@@ -25,47 +37,73 @@ const BlackTieInvitations = () => {
           </p>
         </div>
         <Row>
-          <h3 style={{ fontSize: "30px", marginTop:'40px'}}>Our Services</h3>
+          <h3 style={{ fontSize: "30px", marginTop:'40px', textAlign:'center'}}>Our Services</h3>
         </Row>
         <Row>
-          <Col sm={6} className="textCon">
-            <div className="imgCon">
-              <Image className="" src={img1} />
+          <Col sm={3} className="textCon">
+            <div className="imgConInvi">
+              <video width='350px' height='400px' autoPlay loop muted >
+                  <source
+                    src={birthdayVid}
+                    type="video/mp4"
+                    allowFullScreen
+                  />
+                </video>
             </div>
-            <div className="divCon">
-              <h3 className="subTitle">Birthday Parties</h3>
+            <div className="divConInvi">
+              <h3 className="subTitle">Birthday Invitations</h3>
               <p className="subTitle">
-              Make every birthday celebration unforgettable with our customizable e-invitations, perfect for all ages and themes.
+                Make every birthday celebration unforgettable with our customizable e-invitations, perfect for all ages and themes.
               </p>
             </div>
           </Col>
-          <Col sm={6} className="textCon">
-            <div className="imgCon">
-              <Image className="" src={img2} />
+          <Col sm={3} className="textCon">
+            <div className="imgConInvi">
+              <video width='350px' height='400px' autoPlay loop muted>
+                    <source
+                      src={corVid}
+                      type="video/mp4"
+                      allowFullScreen
+                    />
+                  </video>
             </div>
-            <div className="divCon">
+            <div className="divConInvi">
               <h3 className="subTitle">Corporate Event Invitations</h3>
               <p className="subTitle">
               Impress your colleagues and clients with our professional e-invitations, tailored for corporate events, meetings, and conferences.
               </p>
             </div>
           </Col>
-          <Col sm={6} className="textCon">
-            <div className="imgCon">
-              <Image className="" src={img3} />
+          <Col sm={3} className="textCon">
+            <div className="imgConInvi">
+              {/* <Image className="" src={wedding1} /> */}
+                <video width='350px' height='400px' autoPlay loop muted>
+                  <source
+                    src={weddingVid}
+                    type="video/mp4"
+                    allowFullScreen
+                  />
+                </video>
             </div>
-            <div className="divCon">
-              <h3 className="subTitle">Weddings</h3>
+            <div className="divConInvi">
+              <h3 className="subTitle">Weddings Invitations</h3>
               <p className="subTitle">
               Celebrate your love story with our beautifully crafted e-invitations, designed to reflect the elegance and romance of your special day.
               </p>
             </div>
           </Col>
-          <Col sm={6} className="textCon">
-            <div className="imgCon">
-              <Image className="" src={img4} />
+          <Col sm={3} className="textCon">
+            <div className="imgConInvi">
+              {/* <Image className="" src={img4} /> */}
+              <video width='350px' height='400px' autoPlay loop muted>
+                  <source
+                    src={partyVid}
+                    type="video/mp4"
+                    allowFullScreen
+                  />
+                </video>
             </div>
-            <div className="divCon">
+            <div className="divConInvi">
               <h3 className="subTitle">Party Invitations</h3>
               <p className="subTitle">
               Whether it’s a casual get-together or a grand celebration, our party invitations are designed to set the tone for your event.

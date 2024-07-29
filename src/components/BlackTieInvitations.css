@@ -15,17 +15,20 @@
     text-align: center;
 }
 .textCon{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .textCon h3{
-    margin-top: 12px;
+    margin-top: 38px;
 }
 
-.imgCon{
+.imgConInvi{
     width: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
 }
-.divCon{
-    width: 500px;
+.divConInvi{
+    width: 220px;
 }
 .bold{
     font-weight:600;
@@ -36,11 +39,13 @@
         font-size: 30px;
         margin-top: 40px;
     }
-    .imgCon{
+    .imgConInvi{
         width: 320px;
+        /* display: flex; */
+        /* flex-direction: column; */
     }
-    .divCon{
-        width: 320px;
+    .divConInvi{
+        width: 239px;
         margin-bottom: 40px;
     }
 

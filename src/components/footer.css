@@ -1,0 +1,50 @@
+.fLogo{
+    position: relative;
+    left: 58px;
+}
+.footeH3{
+    position: relative;
+    left: 54px;
+    top: 18px;
+    font-weight: 600;
+}
+.fotSUb{
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+    .footeH3{
+    position: relative;
+    left: 24px;
+    top: 18px;
+    font-weight: 600;
+    }
+    .footerLogoDiv{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+    .fLogo{
+        width: 114px;
+        height: 100px;
+        position: relative;
+        left: -9px;
+    }
+    .fotSUb{
+        margin-top: 28px;
+    }
+    .footerLinkCol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 34px;
+    }
+    .footerContactCol{
+        margin-top: 34px;
+    }
+    .whatsappA{
+        position: relative;
+        top: -32px;
+    }
+}
