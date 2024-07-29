@@ -50,6 +50,7 @@ function AppFooter() {
              <p style={{fontSize:'19px'}}>Useful Links</p>
             <Nav.Link className="footer-link" href="/">Home</Nav.Link>
             <Nav.Link className="footer-link" href="#about">About</Nav.Link>
+            <Nav.Link className="footer-link" href="/clients">Clients</Nav.Link>
             <Nav.Link className="footer-link" href="/black-tie-events">Black Tie Events</Nav.Link>
             <Nav.Link className="footer-link" href="/black-tie-invitations">Black Tie Invitations</Nav.Link>
            </Nav>
