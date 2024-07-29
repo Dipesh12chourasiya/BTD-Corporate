@@ -40,13 +40,13 @@ function AppFooter() {
                height={150}
                />
                <div>
-                  <h3 className="footeH3">Black Tie Digital</h3>
+                  {/* <h3 className="footeH3">Black Tie Digital</h3> */}
                   <p className="footer-p fotSUb">Right Strategies, Implementation and Success.</p>
                </div>
             </div>
         </Col>
-        <Col>
-           <Nav className="flex-column fs-5" style={{display: "flex", justifyContent:'start'}}>
+        <Col sm={3}>
+           <Nav className="flex-column fs-5" style={{display: "flex", justifyContent:'center', alignItems:'center', marginBottom:'37px'}}>
              <p style={{fontSize:'19px'}}>Useful Links</p>
             <Nav.Link className="footer-link" href="/">Home</Nav.Link>
             <Nav.Link className="footer-link" href="#about">About</Nav.Link>
@@ -54,12 +54,12 @@ function AppFooter() {
             <Nav.Link className="footer-link" href="/black-tie-invitations">Black Tie Invitations</Nav.Link>
            </Nav>
         </Col>
-        <Col>
+        <Col sm={3} style={{display: "flex",flexDirection:'column', alignItems:'center', marginBottom:'37px'}}>
             <h4>Contact Us!</h4>
             <p>itsblacktiedigital@gmail.com</p>
             <p className="phoneNumber">+91 8890099108</p>
         </Col>
-        <Col>
+        <Col sm={2}>
           <div className="socials">
             <ul>
               <li><a href="https://wa.me/9131959986" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a></li>

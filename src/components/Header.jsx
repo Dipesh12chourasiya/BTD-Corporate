@@ -17,6 +17,7 @@ function AppHeader() {
         >
           <Image
             style={{
+              height:'45px',
               width: "55px",
               display: "flex",
               justifyContent: "center",

@@ -1084,7 +1084,8 @@ textarea {
   .services-block .holder {
     border-radius: 12px;
     background-color: #e9e9e9;
-    margin: 12px 38px;
+    /* margin: 12px 38px; */
+    margin: 10px auto;
     width: 24em;
     
   }

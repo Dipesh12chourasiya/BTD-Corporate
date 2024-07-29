@@ -10,6 +10,7 @@
 }
 .fotSUb{
     text-align: center;
+    margin-top: 24px;
 }
 @media only screen and (max-width: 767px) {
     .footeH3{
@@ -21,19 +22,25 @@
     .footerLogoDiv{
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
         margin-bottom: 60px;
     }
     .fLogo{
-        width: 114px;
+        /* width: 114px;
         height: 100px;
         position: relative;
-        left: -9px;
+        left: -9px; */
+        width: 154px;
+    height: 100px;
+    position: relative;
+    left: 20vw;
     }
-    .fotSUb{
-        margin-top: 28px;
-    }
+
+    .fotSUb {
+    margin-top: -15px;
+  }
+
     .footerLinkCol{
         display: flex;
         justify-content: center;
