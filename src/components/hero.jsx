@@ -18,7 +18,7 @@ var heroData = [
 function AppHero() {
   return (
     <div>
-      <section id="home" className="hero-block">
+      <section id="home" className="hero-block" >
        <Carousel>
           {
             heroData.map(hero => {

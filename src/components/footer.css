@@ -12,6 +12,10 @@
     text-align: center;
     margin-top: 24px;
 }
+
+.listItem{
+    margin-bottom: 17px;
+}
 @media only screen and (max-width: 767px) {
     .footeH3{
     position: relative;

@@ -63,9 +63,12 @@ function AppFooter() {
         <Col sm={2}>
           <div className="socials">
             <ul>
-              <li><a href="https://wa.me/9131959986" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a></li>
-              <li><a href="https://rohit-mishra.netlify.app/" target="_blank" rel="noreferrer"><i className="fa fa-user"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/rohit-mishra-5184341a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
+              <li className="listItem"><a href="https://wa.me/9131959986" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a></li>
+              <li className="listItem"><a href="https://www.linkedin.com/in/black-tie-digital-247932222?originalSubdomain=in" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
+              <li className="listItem"><a href="https://www.instagram.com/itsblacktiedigital?igsh=MXR3ZWE4Z3VzcWcweg==" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
+              <li className="listItem"><a href="https://g.co/kgs/jz5rQQD" target="_blank" rel="noreferrer"><i className="fab fa-google"></i></a></li>
+              <li className="listItem"><a href="https://www.facebook.com/p/Black-Tie-Digital-100076432320175/?paipv=0&eav=AfbBby4DL0AmLuPoUlu6IS_5Pc_6RZr5plWpYW8aCmMk_vyzxMIZ0zLaSbLaxPeuoDc&_rdr" target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
+              <li className="listItem"><a href="https://rohit-mishra.vercel.app/" target="_blank" rel="noreferrer"><i className="fa fa-user"></i></a></li>
             </ul>
           </div>
         </Col>
