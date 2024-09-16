@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppHeader from './components/Header';
 import AppHero from './components/hero';
 import SocialMedia from './components/SocialMedia';
@@ -9,7 +9,7 @@ import AppClient from './components/clients';
 import BlackTieEvents from './components/BlackTieEvents';
 import BlackTieInvitations from './components/BlackTieInvitations';
 
-function App() //
+function App() {
 
   return (
     <div className='App'>
